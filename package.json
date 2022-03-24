@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Unnamed matrix bot",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
@@ -14,6 +13,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "matrix-bot-sdk": "^0.5.19",
     "typescript": "^4.6.3"
   },
   "devDependencies": {
