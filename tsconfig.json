@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ES2020",
+    "lib": [
+      "ES2021"
+    ],
+    "strict": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "typeRoots": ["types", "node_modules/@types"],
+    "baseUrl": "src"
+  }
+}
