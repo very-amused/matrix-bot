@@ -1,0 +1,10 @@
+{
+  "name": "matrix-bot",
+  "version": "0.1.0",
+  "description": "Unnamed matrix bot",
+  "main": "index.js",
+  "repository": "git@github.com:very-amused/matrix-bot.git",
+  "author": "very-amused <very-amused@pm.me>",
+  "license": "UNLICENSED",
+  "private": true
+}
