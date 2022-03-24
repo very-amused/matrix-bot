@@ -13,7 +13,8 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint',
-    'unicorn'
+    'unicorn',
+    "import"
   ],
   rules: {
     // General
@@ -56,6 +57,8 @@ module.exports = {
     // Unicorn rules
     'unicorn/filename-case': ['error', {
       case: 'kebabCase'
-    }]
+    }],
+    // Enforce valid ESM imports ending in filename
+    'import/extensions': ['error', 'ignorePackages']
   }
 }

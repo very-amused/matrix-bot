@@ -6,7 +6,6 @@
     "strictNullChecks": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
-    "noImplicitAny": true,
     "typeRoots": ["types", "node_modules/@types"],
     "outDir": "build"
   },
